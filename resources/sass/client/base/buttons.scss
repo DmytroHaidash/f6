@@ -1,0 +1,19 @@
+.button {
+  @apply px-6 py-3 inline-flex items-center uppercase tracking-widest text-base font-bold border;
+
+  &--primary {
+    @apply bg-grey-200 border-purple-900 text-white;
+
+    &-outline {
+      @apply border border-purple-900 text-white;
+
+      &:hover {
+        @extend .button--primary;
+      }
+    }
+
+    &:hover {
+      @apply bg-yellow-500 text-white border-yellow-500;
+    }
+  }
+}

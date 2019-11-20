@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+//@import "config/fonts";
+@import "config/utilities";
+
+@import "base/layout";
+@import "base/headings";
+@import "base/buttons";
+@import "base/forms";
+
+@import "modules/titles";
+@import "modules/teaser";
+@import "modules/scroller";
+@import "modules/slideshow";
+@import "modules/pagination";
+@import "modules/language-shitcher";
+@import "modules/check";
+@import "modules/nav";
+@import "modules/messengers";
+@import "modules/modal";
+
+@import "layout/header";
+@import "layout/blog";
+@import "layout/collection";
+@import "layout/page";
+@import "layout/exhibits";
